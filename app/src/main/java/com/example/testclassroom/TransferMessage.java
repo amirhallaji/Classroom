@@ -19,7 +19,7 @@ public class TransferMessage extends AsyncTask<String, Void, Void> {
 
     @Override
     protected Void doInBackground(String... voids) {
-        String s = voids[1];
+        String s = voids[0];
 
         try {
             //192.168.56.1 // Emulator
